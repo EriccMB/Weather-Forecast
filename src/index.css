@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(90deg, rgba(17,89,194,1) 0%, rgba(11,149,255,1) 91%);    color: #333;
+    min-height: 100vh;
+    min-width: 100%;
+}
+

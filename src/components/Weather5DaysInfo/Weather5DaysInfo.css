@@ -1,0 +1,55 @@
+.weather5DaysBox {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 500;
+
+    & h2 {
+        color: #333;
+    }
+
+    & p {
+        text-transform: capitalize;
+    }
+}
+
+.next5DaysBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    & .dayliForecast {
+        background-color: #3333332b;
+        padding: 10px;
+        border-radius: 10px;
+        width: 150px;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:1000px){
+
+    .weather5DaysBox {
+        margin-bottom: 100px;
+    }
+    .next5DaysBox {
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+
+        & .dayliForecast {
+            width: 70%;
+        }
+    }
+
+    
+}
+
